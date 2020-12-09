@@ -3,7 +3,23 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  API_KEY: 'AIzaSyDAd6leD77cnlkrAgGE1YI1P3yupWW7XOA',
+  fbDbUrl: 'https://online-shop-f6200.firebaseio.com/',
+  BASE_URL: 'http://localhost:8080',
+  AUTH_URL: '/auth',
+
+  PRODUCT_URL: '/products',
+  FINDALL_URL: '/all',
+  CREATE_URL: '/create',
+  UPDATE_URL: '/update',
+  FINDBYID_URL: '/find',
+  DELETE_URL: 'delete',
+
+  CATEGORY_URL: '/category',
+  SUBCATEGORY_URL: '/subCategory'
+
+
 };
 
 /*
