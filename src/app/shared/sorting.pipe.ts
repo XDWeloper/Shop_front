@@ -6,9 +6,9 @@ import {Product} from './interfaces/interfaces';
 })
 export class SortingPipe implements PipeTransform {
 
-  transform(products: Product[], subCategory) : any {
+  transform(products: Product[], subCategoryId) : any {
     return products.filter( product => {
-      return product.subcategoryid == subCategory
+      return product.subcategoryid == subCategoryId
     })
   }
 }
